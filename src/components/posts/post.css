@@ -1,22 +1,35 @@
-.row{
+.row {
   margin-top: 10px;
-    margin-left:20px ;
-    color: white;
+  margin-left: 20px;
+  color: white;
 }
-.row-posts{
-    display: flex;
-    padding: 20px;
-    overflow-x: scroll;
-    overflow-y: hidden;
+
+.row-posts {
+  display: flex;
+  padding: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
-.poster{
-    max-height:250px;
-    margin-right:10px ;
-  }
-  .row-posts::-webkit-scrollbar{
-    display: none;
-  }
-  .small_poster{
-    max-height:140px;
-    margin-right:10px ;
-  }
+
+.poster {
+  max-height: 250px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.poster:hover {
+  transform: scale(1.2);
+}
+
+.row-posts::-webkit-scrollbar {
+  display: none;
+}
+
+.small_poster {
+  max-height: 140px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.small_poster:hover{
+  transform: scale(1.1);
+}
